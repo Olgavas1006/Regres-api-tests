@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.Owner;
 import models.UserDataModel;
 import models.UserDataResponseModel;
 import org.junit.jupiter.api.DisplayName;
@@ -12,6 +13,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static specs.BaseSpec.request;
 import static specs.BaseSpec.responseSpec;
 
+
+@Owner("Olgavas1006")
 public class GetSingleUserTests extends TestBase {
 
     @Test
