@@ -76,7 +76,7 @@ ____
 иконки *Allure Report* и *Allure TestOPS*, которые по клику открывают страницы соответствующих отчетов.
 
 <p align="center">  
-<img src="media/screens/jenkins.png">
+<img src="media/screens/jenkins.png" width="800">
 </p>
 
 ----
