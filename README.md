@@ -5,8 +5,8 @@
 
 > Reqres - сервис, предоставляющий публичный API для практики тестирования и разработки
 
+----
 ## **Содержание:**
-____
 
 * <a href="#tools">Технологии и инструменты</a>
 
@@ -66,10 +66,10 @@ ____
 ```bash
 gradle clean test 
 ```
+____
 
 <a id="jenkins"></a>
 ## <img alt="Jenkins" height="25" src="media/logo/jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/regres-api-tests/)
-____
 
 Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать с параметрами*</strong></code>.
 После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки отобразятся
@@ -79,14 +79,14 @@ ____
 <img src="media/screens/jenkins.png">
 </p>
 
-
+----
 ## <img width="4%" title="Allure Report" src="media/logo/allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/regres-api-tests/2/allure/)
 
 <p align="center">
   <img src="media/screens/allureReport.png">
 </p>
 
-
+----
 ## <img width="4%" title="Allure TestOPS" src="media/logo/allure-testOps.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/4957/)
 
 ### Основной дашборд
@@ -101,7 +101,7 @@ ____
   <img src="media/screens/testops1.png">
 </p>
 
-
+----
 ## <img width="4%" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
