@@ -83,7 +83,7 @@ ____
 ## <img width="4%" title="Allure Report" src="media/logo/allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/regres-api-tests/2/allure/)
 
 <p align="center">
-  <img src="media/screens/allureReport.png">
+  <img src="media/screens/allureReport.png" width="800">
 </p>
 
 ----
