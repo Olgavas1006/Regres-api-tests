@@ -102,7 +102,7 @@ ____
 </p>
 
 ----
-## <img width="4%" title="Telegram" src="media/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
+## <img width="4%" title="Telegram" src="media/logo/telegram.svg"> Уведомления в Telegram с использованием бота
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
