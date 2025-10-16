@@ -1,21 +1,25 @@
 package tests;
 
-import models.UsersListResponse;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
-import static org.assertj.core.api.Assertions.assertThat;
 import static specs.BaseSpec.request;
 import static specs.BaseSpec.responseSpec;
 
+@Owner("Olgavas1006")
+@Feature("Удаление пользователя")
 public class DeleteUserTests extends TestBase{
 
     @Test
-    @Tag("api")
-    @DisplayName("Удаления  пользователя")
+    @Severity(SeverityLevel.CRITICAL)
+    @DisplayName("Удаление  пользователя")
     void deleteUser() {
 
         step("Отправить запрос на удаление", () ->

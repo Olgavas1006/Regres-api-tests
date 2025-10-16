@@ -1,4 +1,8 @@
 package tests;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import models.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -10,10 +14,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static specs.BaseSpec.request;
 import static specs.BaseSpec.responseSpec;
 
+@Owner("Olgavas1006")
+@Feature("PUT запрос на обновление данных пользователя")
 public class UpdateUserDataTests extends TestBase {
 
     @Test
-    @Tag("api")
+    @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Обновление данных пользователя")
     public void updateUserTest() {
         LoginUserLombok data = new LoginUserLombok();

@@ -1,5 +1,9 @@
 package tests;
 
+import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import models.LoginUserLombok;
 import models.UserBodyResponseLombok;
 import org.junit.jupiter.api.DisplayName;
@@ -11,10 +15,12 @@ import static io.restassured.RestAssured.given;
 import static specs.BaseSpec.request;
 import static specs.BaseSpec.responseSpec;
 
+@Owner("Olgavas1006")
+@Feature("POST запрос на создание пользователя")
 public class CreateUserTests extends TestBase {
 
     @Test
-    @Tag("api")
+    @Severity(SeverityLevel.BLOCKER)
     @DisplayName("Создание пользователя")
     public void createUserTest() {
         LoginUserLombok data = new LoginUserLombok();

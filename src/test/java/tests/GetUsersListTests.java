@@ -1,4 +1,8 @@
 package tests;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import models.UsersListResponse;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -10,10 +14,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static specs.BaseSpec.request;
 import static specs.BaseSpec.responseSpec;
 
+@Owner("Olgavas1006")
+@Feature("GET запрос получения списка пользователей")
 public class GetUsersListTests extends TestBase{
 
     @Test
-    @Tag("api")
+    @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Получение списка пользователей")
     public void getUsersListTest() {
         UsersListResponse response = step("Отправить запрос на получение списка пользователей", () ->

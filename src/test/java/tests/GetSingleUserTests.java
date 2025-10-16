@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import models.UserDataModel;
 import models.UserDataResponseModel;
@@ -15,10 +16,10 @@ import static specs.BaseSpec.responseSpec;
 
 
 @Owner("Olgavas1006")
+@Feature("GET запрос получения данных пользователя")
 public class GetSingleUserTests extends TestBase {
 
     @Test
-    @Tag("api")
     @DisplayName("Получение данных пользователя")
     public void getSingleUserTest() {
         UserDataResponseModel response = step("Отправить запрос на получение данных", () ->
