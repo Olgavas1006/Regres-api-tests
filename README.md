@@ -92,13 +92,13 @@ ____
 ### Основной дашборд
 
 <p align="center">
-  <img src="media/screens/testops.png">
+  <img src="media/screens/testops.png" width="800">
 </p>
 
 ### Список тестов с результатами прогона
 
 <p align="center">
-  <img src="media/screens/testops1.png">
+  <img src="media/screens/testops1.png" width="800">
 </p>
 
 ----
@@ -106,7 +106,7 @@ ____
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
-<img title="Telegram Notifications" src="media/screens/bot.png">
+<img title="Telegram Notifications" src="media/screens/bot.png" width="300">
 
 
 </p>
